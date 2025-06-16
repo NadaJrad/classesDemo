@@ -1,1 +1,1 @@
-print("hello")
+let skeleton = Enemy()
