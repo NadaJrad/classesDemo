@@ -1,8 +1,10 @@
-//
-//  Enemy.swift
-//  classesDemo
-//
-//  Created by Nada jrad on 16/06/2025.
-//
-
-import Foundation
+class Enemy {
+    var health = 100
+    var attackstrenght = 10
+    
+    func move (){
+        print("walk forwords.")
+    }
+    
+    
+}
