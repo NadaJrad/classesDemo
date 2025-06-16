@@ -4,6 +4,10 @@ class Dragon: Enemy {
         print("Says : \(speech)")
     }
     override func move() {
-        print("fly Forwords")
+        print("fly Forwards")
+    }
+    override func attack() {
+        super.attack()
+        print("spits fire, doesn10 domage")
     }
 }
