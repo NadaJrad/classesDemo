@@ -6,5 +6,7 @@ class Enemy {
         print("walk forwords.")
     }
     
-    
+    func attack () {
+        print ("Land a hit, does \(attackstrenght) domage.")
+    }
 }
